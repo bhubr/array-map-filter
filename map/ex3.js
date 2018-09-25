@@ -1,4 +1,4 @@
-/* Array.prototype.map - Exercice 2
+/* Array.prototype.map - Exercice 3
 
 Ecrire une fonction getMoviesFreshness qui reçoit comme un argument un tableau
 d'objets.

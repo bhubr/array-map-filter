@@ -1,6 +1,6 @@
-const getMoviesFreshness = require('../map/ex2.js');
+const getMoviesFreshness = require('../map/ex3.js');
 
-describe('Test map - exercice 2', () => {
+describe('Test map - exercice 3', () => {
 
   test('getMoviesFreshness', () => {
     expect(getMoviesFreshness(  [
