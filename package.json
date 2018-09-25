@@ -13,11 +13,11 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^23.6.0",
-    "jest-simple-reporter": "^0.1.0"
+    "jest-check-cross-reporter": "^0.1.0"
   },
   "jest": {
     "reporters": [
-      "jest-simple-reporter"
+      "jest-check-cross-reporter"
     ]
   }
 }
