@@ -1,4 +1,4 @@
-/* Array.prototype.map ET filter - Exercice 1
+/* Array.prototype.map ET filter - Exercice 4
 
 Il s'agit d'écrire une fonction getActivitiesMembers qui reçoit deux arguments:
 * un tableau représentant des activités artistiques, sportives, etc.
@@ -6,7 +6,7 @@ Il s'agit d'écrire une fonction getActivitiesMembers qui reçoit deux arguments
 
 Exemple d'argument pour le premier tableau:
 
-['Badminton', 'Tennis', 'Volley-ball', 'Base-ball', 'Soccer', 'Basket-ball', Cycling']
+['Badminton', 'Tennis', 'Volley-ball', 'Base-ball', 'Soccer', 'Basket-ball', 'Cycling']
 
 Et pour le deuxième:
 
@@ -53,7 +53,8 @@ En prenant les deux exemples d'arguments d'entrée, on obtiendrait ceci en sorti
     activity: 'Basket-ball',
     persons: [ 'Cody May', 'Fletcher Estes', 'Jaydon Gallagher' ]
   },
-  { activity: 'Cycling',
+  {
+    activity: 'Cycling',
     persons: [ 'Ross Howard' ]
   }
 ]
