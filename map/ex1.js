@@ -24,7 +24,9 @@ En sortie: [
 function getStringsLength(strings) {
 }
 
-
+// Si besoin, tu peux toujours visualiser le résultat avec console.log,
+// mais alors, il faut alors lancer l'exercice avec node map/ex1
+// console.log(getStringsLength(['Cat', 'Lion', 'Tiger', 'Jaguar', 'Leopard']));
 
 // Ne pas modifier l'export
 module.exports = getStringsLength;

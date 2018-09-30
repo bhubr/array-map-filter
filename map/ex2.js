@@ -1,4 +1,4 @@
-/* Array.prototype.map - Exercice 3
+/* Array.prototype.map - Exercice 2
 
 Ecrire une fonction getFoodCategories qui reçoit comme un argument un tableau
 d'objets.
