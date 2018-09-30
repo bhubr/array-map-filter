@@ -27,6 +27,8 @@ La fonction doit renvoyer un tableau d'objets, chacun contenant les propriétés
 * activity: le nom de l'activité
 * persons: le nom des pratiquants de cette activité
 
+On peut se servir de map à deux reprises dans cet exercice...
+
 En prenant les deux exemples d'arguments d'entrée, on obtiendrait ceci en sortie:
 
 [ {

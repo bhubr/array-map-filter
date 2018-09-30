@@ -5,7 +5,7 @@ d'objets décrivant des campus de la Wild Code School. Chaque campus a ces propr
 - city: ville où se trouve le campus
 - curriculums: les cursus proposés dans ce campus (PHP/Symfony, JS/React, JS/Angular, etc.)
 
-En utilisant map puis filter, la fonction doit renvoyer les villes des campus qui proposent
+En utilisant filter puis map, la fonction doit renvoyer les villes des campus qui proposent
 un cursus JS/React.
 
 Tableau en entrée:
