@@ -2,7 +2,7 @@
 
 ## Installation
 
-* Cloner ce repo
+* [EDIT] **D'abord** forker, **puis** cloner ce repo (indispensable pour Travis, sinon ça marche quand même sans Travis)
 * Dans le répertoire `array-map-filter`, lancer `npm install`
 
 ## Usage
