@@ -30,7 +30,7 @@ Sortie attendue:
 
 function filterOnPrice(products, maxPrice) {
   return products.filter(product => {
-    return product.price < maxPrice;
+    return product.price <= maxPrice;
   });
 }
 
