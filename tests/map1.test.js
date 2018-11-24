@@ -1,6 +1,6 @@
 const getStringsLength = require('../map/ex1.js');
 
-xdescribe('map - exercice 1', () => {
+describe('map - exercice 1', () => {
 
   test('getStringsLength', () => {
     expect(getStringsLength([

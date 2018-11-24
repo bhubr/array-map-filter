@@ -1,6 +1,6 @@
 const getCampusesTeachingReact = require('../filter-map/ex2.js');
 
-xdescribe('map + filter - exercice 2', () => {
+describe('map + filter - exercice 2', () => {
 
   test('getCampusesTeachingReact', () => {
     expect(getCampusesTeachingReact([
