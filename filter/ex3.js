@@ -24,6 +24,9 @@ Sortie attendue:
  */
 
 function keepStarks(names) {
+  return names.filter(name => {
+    return /Stark$/.test(name);
+  });
 }
 
 // Ne pas modifier l'export
