@@ -41,11 +41,15 @@ En sortie: [
 ]
 
  */
+function getFoodCategories(string){
+    return string.map(x=>x.isVegetarian ? x.food + ' is suitable for vegetarians': x.food +' is not suitable for vegetarians'); 
+};
+/*console.log(getFoodCategories([
+  { food: 'Bacon', isVegetarian: false},
+  { food: 'Sausage', isVegetarian: false },
+  { food: 'Tofu', isVegetarian: true },
+  { food: 'Chick Pea', isVegetarian: true }
+]));
+*/
 
-function getFoodCategories(foods) {
-}
-
-
-
-// Ne pas modifier l'export
 module.exports = getFoodCategories;

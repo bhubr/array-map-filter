@@ -5,7 +5,7 @@ des tableaux de chaînes de caractères :
 1. des commentaires sur un fil d'actualité ou une vidéo.
 2. une liste de mots "grossiers" ou "offensifs" à bannir
 
-La fonction doit éliminer les commentaires contenant au moins un des mots "bannis".
+La fonction doit éliminer les commentaires contenant au moins un des mots "banned".
 
 Exemple d'entrée:
 1. des commentaires (on est resté soft pour ne pas heurter les oreilles chastes)
@@ -26,8 +26,15 @@ Sortie attendue:
 
 */
 
-function filterOffensiveComments(comments, bannedWords) {
-}
+  function filterOffensiveComments(comments, bannedWords) {
+    var banned;
+    for(var i=0;i<bannedWords.length;i++){
+      banned = comments.filter(x => x.toUpperCase().includes(bannedWords[i].toUpperCase())=== false);
+      comments = banned;
+    }
+    return banned;
+  }
+
 
 // Ne pas modifier l'export
 module.exports = filterOffensiveComments;
