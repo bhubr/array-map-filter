@@ -1,6 +1,6 @@
 const getMoviesFreshness = require('../map/ex3.js');
 
-xdescribe('map - exercice 3', () => {
+describe('map - exercice 3', () => {
 
   test('getMoviesFreshness', () => {
     expect(getMoviesFreshness(
