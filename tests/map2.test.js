@@ -1,6 +1,6 @@
 const getFoodCategories = require('../map/ex2.js');
 
-xdescribe('map - exercice 2', () => {
+describe('map - exercice 2', () => {
 
   test('getFoodCategories', () => {
     expect(getFoodCategories(  [
