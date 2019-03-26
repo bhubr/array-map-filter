@@ -1,6 +1,6 @@
 const getActivitiesMembers = require('../filter-map/ex4.js');
 
-xdescribe('map + filter - exercice 4', () => {
+describe('map + filter - exercice 4', () => {
 
   test('getActivitiesMembers', () => {
     expect(getActivitiesMembers(
