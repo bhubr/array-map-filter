@@ -23,6 +23,9 @@ Sortie attendue:
 */
 
 function getJedisNames(characters) {
+let padawan = characters.filter(char => char.side === 'light')
+return padawan.map(jedi => {return jedi.name})
+
 }
 
 module.exports = getJedisNames;

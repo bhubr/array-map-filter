@@ -25,6 +25,11 @@ Sortie attendue:
 */
 
 function getCampusesTeachingReact(campuses) {
+
+  let best = campuses.filter(lang => lang.curriculums.includes('JS/React') === true)
+  return best.map(sch => {return sch.city})
+  
+
 }
 
 module.exports = getCampusesTeachingReact;
